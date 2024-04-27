@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40EF07AC2BDD1F850082EC36 /* tRick_sUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EF07AB2BDD1F850082EC36 /* tRick_sUIApp.swift */; };
+		40EF07AE2BDD1F850082EC36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EF07AD2BDD1F850082EC36 /* ContentView.swift */; };
+		40EF07B02BDD1F870082EC36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40EF07AF2BDD1F870082EC36 /* Assets.xcassets */; };
+		40EF07B42BDD1F870082EC36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40EF07B32BDD1F870082EC36 /* Preview Assets.xcassets */; };
+		40EF07BE2BDD1F880082EC36 /* tRick_sUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EF07BD2BDD1F880082EC36 /* tRick_sUITests.swift */; };
+		40EF07C82BDD1F880082EC36 /* tRick_sUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EF07C72BDD1F880082EC36 /* tRick_sUIUITests.swift */; };
+		40EF07CA2BDD1F880082EC36 /* tRick_sUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EF07C92BDD1F880082EC36 /* tRick_sUIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40EF07BA2BDD1F880082EC36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40EF07A02BDD1F850082EC36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40EF07A72BDD1F850082EC36;
+			remoteInfo = "tRick sUI";
+		};
+		40EF07C42BDD1F880082EC36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40EF07A02BDD1F850082EC36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40EF07A72BDD1F850082EC36;
+			remoteInfo = "tRick sUI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40EF07A82BDD1F850082EC36 /* tRick sUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tRick sUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40EF07AB2BDD1F850082EC36 /* tRick_sUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tRick_sUIApp.swift; sourceTree = "<group>"; };
+		40EF07AD2BDD1F850082EC36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		40EF07AF2BDD1F870082EC36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40EF07B12BDD1F870082EC36 /* tRick_sUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = tRick_sUI.entitlements; sourceTree = "<group>"; };
+		40EF07B32BDD1F870082EC36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		40EF07B92BDD1F880082EC36 /* tRick sUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tRick sUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40EF07BD2BDD1F880082EC36 /* tRick_sUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tRick_sUITests.swift; sourceTree = "<group>"; };
+		40EF07C32BDD1F880082EC36 /* tRick sUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tRick sUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40EF07C72BDD1F880082EC36 /* tRick_sUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tRick_sUIUITests.swift; sourceTree = "<group>"; };
+		40EF07C92BDD1F880082EC36 /* tRick_sUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tRick_sUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40EF07A52BDD1F850082EC36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40EF07B62BDD1F880082EC36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40EF07C02BDD1F880082EC36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40EF079F2BDD1F850082EC36 = {
+			isa = PBXGroup;
+			children = (
+				40EF07AA2BDD1F850082EC36 /* tRick sUI */,
+				40EF07BC2BDD1F880082EC36 /* tRick sUITests */,
+				40EF07C62BDD1F880082EC36 /* tRick sUIUITests */,
+				40EF07A92BDD1F850082EC36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40EF07A92BDD1F850082EC36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40EF07A82BDD1F850082EC36 /* tRick sUI.app */,
+				40EF07B92BDD1F880082EC36 /* tRick sUITests.xctest */,
+				40EF07C32BDD1F880082EC36 /* tRick sUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40EF07AA2BDD1F850082EC36 /* tRick sUI */ = {
+			isa = PBXGroup;
+			children = (
+				40EF07D62BDD218F0082EC36 /* Models */,
+				40EF07AB2BDD1F850082EC36 /* tRick_sUIApp.swift */,
+				40EF07AD2BDD1F850082EC36 /* ContentView.swift */,
+				40EF07AF2BDD1F870082EC36 /* Assets.xcassets */,
+				40EF07B12BDD1F870082EC36 /* tRick_sUI.entitlements */,
+				40EF07B22BDD1F870082EC36 /* Preview Content */,
+			);
+			path = "tRick sUI";
+			sourceTree = "<group>";
+		};
+		40EF07B22BDD1F870082EC36 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				40EF07B32BDD1F870082EC36 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		40EF07BC2BDD1F880082EC36 /* tRick sUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40EF07BD2BDD1F880082EC36 /* tRick_sUITests.swift */,
+			);
+			path = "tRick sUITests";
+			sourceTree = "<group>";
+		};
+		40EF07C62BDD1F880082EC36 /* tRick sUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40EF07C72BDD1F880082EC36 /* tRick_sUIUITests.swift */,
+				40EF07C92BDD1F880082EC36 /* tRick_sUIUITestsLaunchTests.swift */,
+			);
+			path = "tRick sUIUITests";
+			sourceTree = "<group>";
+		};
+		40EF07D62BDD218F0082EC36 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40EF07A72BDD1F850082EC36 /* tRick sUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40EF07CD2BDD1F880082EC36 /* Build configuration list for PBXNativeTarget "tRick sUI" */;
+			buildPhases = (
+				40EF07A42BDD1F850082EC36 /* Sources */,
+				40EF07A52BDD1F850082EC36 /* Frameworks */,
+				40EF07A62BDD1F850082EC36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tRick sUI";
+			productName = "tRick sUI";
+			productReference = 40EF07A82BDD1F850082EC36 /* tRick sUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40EF07B82BDD1F880082EC36 /* tRick sUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40EF07D02BDD1F880082EC36 /* Build configuration list for PBXNativeTarget "tRick sUITests" */;
+			buildPhases = (
+				40EF07B52BDD1F880082EC36 /* Sources */,
+				40EF07B62BDD1F880082EC36 /* Frameworks */,
+				40EF07B72BDD1F880082EC36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40EF07BB2BDD1F880082EC36 /* PBXTargetDependency */,
+			);
+			name = "tRick sUITests";
+			productName = "tRick sUITests";
+			productReference = 40EF07B92BDD1F880082EC36 /* tRick sUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40EF07C22BDD1F880082EC36 /* tRick sUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40EF07D32BDD1F880082EC36 /* Build configuration list for PBXNativeTarget "tRick sUIUITests" */;
+			buildPhases = (
+				40EF07BF2BDD1F880082EC36 /* Sources */,
+				40EF07C02BDD1F880082EC36 /* Frameworks */,
+				40EF07C12BDD1F880082EC36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40EF07C52BDD1F880082EC36 /* PBXTargetDependency */,
+			);
+			name = "tRick sUIUITests";
+			productName = "tRick sUIUITests";
+			productReference = 40EF07C32BDD1F880082EC36 /* tRick sUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40EF07A02BDD1F850082EC36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					40EF07A72BDD1F850082EC36 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					40EF07B82BDD1F880082EC36 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 40EF07A72BDD1F850082EC36;
+					};
+					40EF07C22BDD1F880082EC36 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 40EF07A72BDD1F850082EC36;
+					};
+				};
+			};
+			buildConfigurationList = 40EF07A32BDD1F850082EC36 /* Build configuration list for PBXProject "tRick sUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40EF079F2BDD1F850082EC36;
+			productRefGroup = 40EF07A92BDD1F850082EC36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40EF07A72BDD1F850082EC36 /* tRick sUI */,
+				40EF07B82BDD1F880082EC36 /* tRick sUITests */,
+				40EF07C22BDD1F880082EC36 /* tRick sUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40EF07A62BDD1F850082EC36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40EF07B42BDD1F870082EC36 /* Preview Assets.xcassets in Resources */,
+				40EF07B02BDD1F870082EC36 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40EF07B72BDD1F880082EC36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40EF07C12BDD1F880082EC36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40EF07A42BDD1F850082EC36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40EF07AE2BDD1F850082EC36 /* ContentView.swift in Sources */,
+				40EF07AC2BDD1F850082EC36 /* tRick_sUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40EF07B52BDD1F880082EC36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40EF07BE2BDD1F880082EC36 /* tRick_sUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40EF07BF2BDD1F880082EC36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40EF07CA2BDD1F880082EC36 /* tRick_sUIUITestsLaunchTests.swift in Sources */,
+				40EF07C82BDD1F880082EC36 /* tRick_sUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40EF07BB2BDD1F880082EC36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40EF07A72BDD1F850082EC36 /* tRick sUI */;
+			targetProxy = 40EF07BA2BDD1F880082EC36 /* PBXContainerItemProxy */;
+		};
+		40EF07C52BDD1F880082EC36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40EF07A72BDD1F850082EC36 /* tRick sUI */;
+			targetProxy = 40EF07C42BDD1F880082EC36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		40EF07CB2BDD1F880082EC36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40EF07CC2BDD1F880082EC36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		40EF07CE2BDD1F880082EC36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "tRick sUI/tRick_sUI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tRick sUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 3R5BAX5W44;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tRick-or-Morty.tRick-sUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40EF07CF2BDD1F880082EC36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "tRick sUI/tRick_sUI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tRick sUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 3R5BAX5W44;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tRick-or-Morty.tRick-sUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		40EF07D12BDD1F880082EC36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R5BAX5W44;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tRick-or-Morty.tRick-sUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tRick sUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tRick sUI";
+			};
+			name = Debug;
+		};
+		40EF07D22BDD1F880082EC36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R5BAX5W44;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tRick-or-Morty.tRick-sUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tRick sUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tRick sUI";
+			};
+			name = Release;
+		};
+		40EF07D42BDD1F880082EC36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R5BAX5W44;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tRick-or-Morty.tRick-sUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tRick sUI";
+			};
+			name = Debug;
+		};
+		40EF07D52BDD1F880082EC36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R5BAX5W44;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tRick-or-Morty.tRick-sUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tRick sUI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40EF07A32BDD1F850082EC36 /* Build configuration list for PBXProject "tRick sUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40EF07CB2BDD1F880082EC36 /* Debug */,
+				40EF07CC2BDD1F880082EC36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40EF07CD2BDD1F880082EC36 /* Build configuration list for PBXNativeTarget "tRick sUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40EF07CE2BDD1F880082EC36 /* Debug */,
+				40EF07CF2BDD1F880082EC36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40EF07D02BDD1F880082EC36 /* Build configuration list for PBXNativeTarget "tRick sUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40EF07D12BDD1F880082EC36 /* Debug */,
+				40EF07D22BDD1F880082EC36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40EF07D32BDD1F880082EC36 /* Build configuration list for PBXNativeTarget "tRick sUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40EF07D42BDD1F880082EC36 /* Debug */,
+				40EF07D52BDD1F880082EC36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40EF07A02BDD1F850082EC36 /* Project object */;
+}
