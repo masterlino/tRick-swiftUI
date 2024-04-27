@@ -14,6 +14,8 @@
 		40EF07BE2BDD1F880082EC36 /* tRick_sUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EF07BD2BDD1F880082EC36 /* tRick_sUITests.swift */; };
 		40EF07C82BDD1F880082EC36 /* tRick_sUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EF07C72BDD1F880082EC36 /* tRick_sUIUITests.swift */; };
 		40EF07CA2BDD1F880082EC36 /* tRick_sUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EF07C92BDD1F880082EC36 /* tRick_sUIUITestsLaunchTests.swift */; };
+		40EF07D92BDD22F40082EC36 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EF07D82BDD22F40082EC36 /* Character.swift */; };
+		40EF07DB2BDD23B70082EC36 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EF07DA2BDD23B70082EC36 /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		40EF07C32BDD1F880082EC36 /* tRick sUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tRick sUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40EF07C72BDD1F880082EC36 /* tRick_sUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tRick_sUIUITests.swift; sourceTree = "<group>"; };
 		40EF07C92BDD1F880082EC36 /* tRick_sUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tRick_sUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		40EF07D82BDD22F40082EC36 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		40EF07DA2BDD23B70082EC36 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,8 @@
 		40EF07D62BDD218F0082EC36 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				40EF07D82BDD22F40082EC36 /* Character.swift */,
+				40EF07DA2BDD23B70082EC36 /* Location.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -267,7 +273,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40EF07D92BDD22F40082EC36 /* Character.swift in Sources */,
 				40EF07AE2BDD1F850082EC36 /* ContentView.swift in Sources */,
+				40EF07DB2BDD23B70082EC36 /* Location.swift in Sources */,
 				40EF07AC2BDD1F850082EC36 /* tRick_sUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
