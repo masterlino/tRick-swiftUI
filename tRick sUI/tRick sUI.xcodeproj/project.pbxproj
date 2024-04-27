@@ -16,6 +16,7 @@
 		40EF07CA2BDD1F880082EC36 /* tRick_sUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EF07C92BDD1F880082EC36 /* tRick_sUIUITestsLaunchTests.swift */; };
 		40EF07D92BDD22F40082EC36 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EF07D82BDD22F40082EC36 /* Character.swift */; };
 		40EF07DB2BDD23B70082EC36 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EF07DA2BDD23B70082EC36 /* Location.swift */; };
+		40EF07DE2BDD24A80082EC36 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EF07DD2BDD24A80082EC36 /* APIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		40EF07C92BDD1F880082EC36 /* tRick_sUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tRick_sUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		40EF07D82BDD22F40082EC36 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		40EF07DA2BDD23B70082EC36 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		40EF07DD2BDD24A80082EC36 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		40EF07AA2BDD1F850082EC36 /* tRick sUI */ = {
 			isa = PBXGroup;
 			children = (
+				40EF07DC2BDD248E0082EC36 /* Networking */,
 				40EF07D62BDD218F0082EC36 /* Models */,
 				40EF07AB2BDD1F850082EC36 /* tRick_sUIApp.swift */,
 				40EF07AD2BDD1F850082EC36 /* ContentView.swift */,
@@ -141,6 +144,14 @@
 				40EF07DA2BDD23B70082EC36 /* Location.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		40EF07DC2BDD248E0082EC36 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				40EF07DD2BDD24A80082EC36 /* APIClient.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +287,7 @@
 				40EF07D92BDD22F40082EC36 /* Character.swift in Sources */,
 				40EF07AE2BDD1F850082EC36 /* ContentView.swift in Sources */,
 				40EF07DB2BDD23B70082EC36 /* Location.swift in Sources */,
+				40EF07DE2BDD24A80082EC36 /* APIClient.swift in Sources */,
 				40EF07AC2BDD1F850082EC36 /* tRick_sUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

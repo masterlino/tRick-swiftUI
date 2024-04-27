@@ -13,5 +13,5 @@ import Foundation
 // Nested Location struct (optional)
 struct Location: Decodable {
   let name: String
-  let url: URL
+  let url: String
 }
