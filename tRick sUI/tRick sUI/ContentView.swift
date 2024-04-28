@@ -15,16 +15,30 @@ struct ContentView: View {
         NavigationView {
             List(characters, id: \.id) { character in
                 NavigationLink(destination: CharacterDetailView(character: character)) {
+                    Image(uiImage: UIImage(data: try! Data(contentsOf: URL(string: character.image)!)) ?? UIImage())
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 40, height: 40)
+                        .clipShape(Circle()) // Add this line to clip the image into a circle
                     Text(character.name)
                 }
+                
+                .listRowBackground(
+                    Capsule()
+                        .fill(Color.teal)
+                        .padding(2)
+                )
             }
-            .navigationTitle("Rick and Morty Characters")
+            .navigationTitle("Casting Characters")
+            .font(.custom( "AmericanTypewriter", fixedSize: 24))
+            .foregroundColor(Color.yellow)
             .onAppear {
                 fetchCharacters()
             }
             .alert(isPresented: Binding<Bool>(get: { self.error != nil }, set: { _ in self.error = nil })) {
                 Alert(title: Text("Error"), message: Text(error!.localizedDescription), dismissButton: .default(Text("OK")))
             }
+            .scrollContentBackground(.hidden)
         }
     }
 
@@ -52,7 +66,15 @@ struct CharacterDetailView: View {
             Text("Status: \(character.status)")
             Text("Species: \(character.species)")
             Text("Gender: \(character.gender)")
-            Image(uiImage: UIImage(data: try! Data(contentsOf: URL(string: character.image)!)) ?? UIImage())
+            Image(uiImage: {
+              do {
+                let data = try Data(contentsOf: URL(string: character.image)!)
+                  return UIImage(data: data) ?? UIImage()
+              } catch {
+                // Handle error (e.g., print a message, display a placeholder image)
+                return UIImage()
+              }
+            }())
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 200, height: 200)

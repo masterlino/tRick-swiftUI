@@ -7,38 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "721490D3-A39F-49FB-B92E-7D6FAC2657A6"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "tRick sUI/ContentView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "fetchCharacters()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "B192ABF2-5985-4471-8761-01AAC273A975"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "tRick sUI/ContentView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "fetchCharacters()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "C99C0C5C-F7CC-4577-B00D-B1BB7F649F44"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -66,36 +34,6 @@
             endingLineNumber = "26"
             landmarkName = "fetchCharacters(completion:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "F32330FD-A089-456E-A829-D0017542F907 - 121ae189eb035da7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in tRick_sUI.APIClient.fetchCharacters(completion: (Swift.Result&lt;tRick_sUI.CharacterResponse, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "tRick sUI"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lbustama/Documents/Xcode%20Projects/swiftUI/tRick%20swiftUI/tRick%20sUI/tRick%20sUI/Networking/APIClient.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26">
-               </Location>
-               <Location
-                  uuid = "F32330FD-A089-456E-A829-D0017542F907 - 121ae189eb035da7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in tRick_sUI.APIClient.fetchCharacters(completion: (Swift.Result&lt;tRick_sUI.CharacterResponse, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "tRick sUI"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lbustama/Documents/Xcode%20Projects/swiftUI/tRick%20swiftUI/tRick%20sUI/tRick%20sUI/Networking/APIClient.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
