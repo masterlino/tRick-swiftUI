@@ -29,7 +29,7 @@ struct ContentView: View {
                         .padding(2)
                 )
             }
-            .navigationTitle("Casting Characters")
+            .navigationTitle("Show Characters")
             .font(.custom( "AmericanTypewriter", fixedSize: 24))
             .foregroundColor(Color.yellow)
             .onAppear {
@@ -79,6 +79,21 @@ struct CharacterDetailView: View {
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 200, height: 200)
         }
+        .background {
+            Image(uiImage: {
+              do {
+                let data = try Data(contentsOf: URL(string: character.image)!)
+                  return UIImage(data: data) ?? UIImage()
+              } catch {
+                // Handle error (e.g., print a message, display a placeholder image)
+                return UIImage()
+              }
+            }())
+            .resizable()
+            .scaledToFill()
+            .blur(radius: 20)
+        }
+        .foregroundColor(Color.pink)
     }
 }
 
