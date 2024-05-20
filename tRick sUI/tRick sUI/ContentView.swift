@@ -15,8 +15,7 @@ struct ContentView: View {
         NavigationView {
             List(characters, id: \.id) { character in
                 NavigationLink(destination: CharacterDetailView(character: character)) {
-                    Image(uiImage: UIImage(data: try! Data(contentsOf: URL(string: character.image)!)) ?? UIImage())
-                        .resizable()
+                    RemoteImage(url: character.image)
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 40, height: 40)
                         .clipShape(Circle()) // Add this line to clip the image into a circle
@@ -66,35 +65,39 @@ struct CharacterDetailView: View {
             Text("Status: \(character.status)")
             Text("Species: \(character.species)")
             Text("Gender: \(character.gender)")
-            Image(uiImage: {
-              do {
-                let data = try Data(contentsOf: URL(string: character.image)!)
-                  return UIImage(data: data) ?? UIImage()
-              } catch {
-                // Handle error (e.g., print a message, display a placeholder image)
-                return UIImage()
-              }
-            }())
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .frame(width: 200, height: 200)
+            // Use RemoteImage for the foreground image
+                  RemoteImage(url: character.image)
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 200, height: 200)
+                    .clipShape(Circle()) // Add this line to clip the image into a circle (optional)
+            // Use RemoteImage for the background image
+                  RemoteImage(url: character.image)
+                    .scaledToFill()
+                    .blur(radius: 20)
+                    .ignoresSafeArea(.all) // Optional, to extend the background image
         }
-        .background {
-            Image(uiImage: {
-              do {
-                let data = try Data(contentsOf: URL(string: character.image)!)
-                  return UIImage(data: data) ?? UIImage()
-              } catch {
-                // Handle error (e.g., print a message, display a placeholder image)
-                return UIImage()
-              }
-            }())
-            .resizable()
-            .scaledToFill()
-            .blur(radius: 20)
-        }
+    
         .foregroundColor(Color.pink)
     }
+}
+
+struct RemoteImage: View {
+  let url: String
+
+  var body: some View {
+    AsyncImage(url: URL(string: url)) { phase in
+      switch phase {
+      case .empty:
+        ProgressView()
+      case .success(let image):
+        image
+          .resizable()
+          .aspectRatio(contentMode: .fit)
+      case .failure:
+        Image(systemName: "xmark.circle") // Display a placeholder if failed
+      }
+    }
+  }
 }
 
 #Preview {
